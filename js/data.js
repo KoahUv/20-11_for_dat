@@ -34,8 +34,12 @@
  *  printed in the browser console so you can fix the path).
  */
 const memories = [
-  // { src: "assets/images/photo-01.jpg", caption: "Một khoảnh khắc đáng nhớ", date: "" },
-  // { src: "assets/images/photo-02.jpg", caption: "", date: "", size: "lg" },
+  { src: "assets/images/bo.jpg", caption: "Người thầy của nhiều người, người bố của con", date: "" },
+  { src: "assets/images/hoi-be.jpg", caption: "Hồi bé, trong vòng tay bố", date: "", size: "md" },
+  { src: "assets/images/bo-va-con.jpg", caption: "Bố lo quả bóng, con lo đôi giày", date: "" },
+  { src: "assets/images/ca-nha.jpg", caption: "Cả nhà mình, quây quần bên nhau", date: "", size: "lg" },
+  // Thêm ảnh mới theo mẫu (tên file nên viết không dấu, không khoảng trắng):
+  // { src: "assets/images/ten-anh.jpg", caption: "", date: "" },
 ];
 
 window.SITE_DATA = {

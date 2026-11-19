@@ -53,6 +53,10 @@ const memories = [
 - `caption` and `date` are optional. Leave them `""` to show none.
 - `size` is optional: `"sm"`, `"md"` or `"lg"` (otherwise sizes vary automatically).
 - **File names are case-sensitive on GitHub Pages.** `Photo-01.JPG` ≠ `photo-01.jpg`.
+- Use names **without accents or spaces** (`ca-nha.jpg`, not `Cả nhà.jpg`): accented names can be
+  stored differently by macOS and the web server, and then the photo silently fails to load.
+- Full-size originals are kept in `_anh-goc/`, which `.gitignore` keeps out of the repository.
+  If you upload through the GitHub website instead of git, don't drag that folder in.
 - A photo that can't be found is skipped automatically, and the browser console
   (F12 → Console) prints which path is wrong.
 - For fast loading, resize photos to about 1600px on the longest side before adding them
